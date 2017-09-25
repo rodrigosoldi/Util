@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE6BFC8B1F797CB700CBF5AB /* NSString+RSEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6BFC8A1F797CB700CBF5AB /* NSString+RSEmail.m */; };
 		FE6EAF551F7960A200AD16DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EAF541F7960A200AD16DF /* AppDelegate.m */; };
 		FE6EAF5B1F7960A200AD16DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6EAF591F7960A200AD16DF /* Main.storyboard */; };
 		FE6EAF5D1F7960A200AD16DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6EAF5C1F7960A200AD16DF /* Assets.xcassets */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE6BFC891F797CB700CBF5AB /* NSString+RSEmail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+RSEmail.h"; sourceTree = "<group>"; };
+		FE6BFC8A1F797CB700CBF5AB /* NSString+RSEmail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+RSEmail.m"; sourceTree = "<group>"; };
 		FE6EAF501F7960A200AD16DF /* Util.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Util.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6EAF531F7960A200AD16DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE6EAF541F7960A200AD16DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE6BFC881F797CA800CBF5AB /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				FE6BFC891F797CB700CBF5AB /* NSString+RSEmail.h */,
+				FE6BFC8A1F797CB700CBF5AB /* NSString+RSEmail.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
 		FE6EAF471F7960A200AD16DF = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +96,7 @@
 		FE6EAF691F79615600AD16DF /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				FE6BFC881F797CA800CBF5AB /* NSString */,
 				FE6EAF7F1F7969BF00AD16DF /* NSDictionary */,
 				FE6EAF721F7966CB00AD16DF /* UIColor */,
 				FE6EAF6A1F79622500AD16DF /* UIView */,
@@ -215,6 +228,7 @@
 				FE6EAF631F7960A200AD16DF /* main.m in Sources */,
 				FE6EAF821F796AA500AD16DF /* NSDictionary+RSJSONString.m in Sources */,
 				FE6EAF551F7960A200AD16DF /* AppDelegate.m in Sources */,
+				FE6BFC8B1F797CB700CBF5AB /* NSString+RSEmail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FE6BFC8B1F797CB700CBF5AB /* NSString+RSEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6BFC8A1F797CB700CBF5AB /* NSString+RSEmail.m */; };
+		FE6BFC8E1F797ED200CBF5AB /* NSString+RSEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6BFC8D1F797ED200CBF5AB /* NSString+RSEmpty.m */; };
 		FE6EAF551F7960A200AD16DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EAF541F7960A200AD16DF /* AppDelegate.m */; };
 		FE6EAF5B1F7960A200AD16DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6EAF591F7960A200AD16DF /* Main.storyboard */; };
 		FE6EAF5D1F7960A200AD16DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6EAF5C1F7960A200AD16DF /* Assets.xcassets */; };
@@ -24,6 +25,8 @@
 /* Begin PBXFileReference section */
 		FE6BFC891F797CB700CBF5AB /* NSString+RSEmail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+RSEmail.h"; sourceTree = "<group>"; };
 		FE6BFC8A1F797CB700CBF5AB /* NSString+RSEmail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+RSEmail.m"; sourceTree = "<group>"; };
+		FE6BFC8C1F797ED200CBF5AB /* NSString+RSEmpty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+RSEmpty.h"; sourceTree = "<group>"; };
+		FE6BFC8D1F797ED200CBF5AB /* NSString+RSEmpty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+RSEmpty.m"; sourceTree = "<group>"; };
 		FE6EAF501F7960A200AD16DF /* Util.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Util.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6EAF531F7960A200AD16DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE6EAF541F7960A200AD16DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 			children = (
 				FE6BFC891F797CB700CBF5AB /* NSString+RSEmail.h */,
 				FE6BFC8A1F797CB700CBF5AB /* NSString+RSEmail.m */,
+				FE6BFC8C1F797ED200CBF5AB /* NSString+RSEmpty.h */,
+				FE6BFC8D1F797ED200CBF5AB /* NSString+RSEmpty.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 			files = (
 				FE6EAF781F79670B00AD16DF /* UIColor+RSRandom.m in Sources */,
 				FE6EAF7B1F7967B100AD16DF /* RandomViewController.m in Sources */,
+				FE6BFC8E1F797ED200CBF5AB /* NSString+RSEmpty.m in Sources */,
 				FE6EAF7E1F79688000AD16DF /* UIColor+RSHex.m in Sources */,
 				FE6EAF711F7965D700AD16DF /* ShakeViewController.m in Sources */,
 				FE6EAF6D1F79628100AD16DF /* UIView+RSShake.m in Sources */,

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ShakeViewController.h
 //  Util
 //
 //  Created by Rodrigo Soldi on 25/09/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ShakeViewController : UIViewController
 
 @end
-

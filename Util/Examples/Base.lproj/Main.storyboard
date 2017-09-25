@@ -52,7 +52,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="626" y="133"/>
+            <point key="canvasLocation" x="623" y="-564"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="RD7-so-35V">
@@ -65,11 +65,57 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="uRf-8g-I1e"/>
+                        <segue destination="0Vm-YB-3Bg" kind="relationship" relationship="viewControllers" id="ywA-P6-beT"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fO1-OG-VMG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-163.19999999999999" y="133.13343328335833"/>
+        </scene>
+        <!--Random-->
+        <scene sceneID="KKS-L5-Ae0">
+            <objects>
+                <viewController id="0Vm-YB-3Bg" customClass="RandomViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qJE-WB-D7N">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ic-8t-f0T">
+                                <rect key="frame" x="62" y="208" width="250" height="222"/>
+                                <color key="backgroundColor" red="1" green="0.3412995667" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RsG-zj-XdS">
+                                <rect key="frame" x="16" y="554" width="343" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="BZt-jR-xKb"/>
+                                </constraints>
+                                <state key="normal" title="Random"/>
+                                <connections>
+                                    <action selector="didTapRandom:" destination="0Vm-YB-3Bg" eventType="touchUpInside" id="m8l-Qa-Jyn"/>
+                                    <action selector="didTapShake:" destination="BYZ-38-t0r" eventType="touchUpInside" id="irJ-Gu-h8x"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uiQ-dM-hdF" firstAttribute="bottom" secondItem="RsG-zj-XdS" secondAttribute="bottom" constant="32" id="6O7-w6-SYw"/>
+                            <constraint firstItem="9Ic-8t-f0T" firstAttribute="centerY" secondItem="uiQ-dM-hdF" secondAttribute="centerY" id="8mu-Uk-yRv"/>
+                            <constraint firstItem="RsG-zj-XdS" firstAttribute="leading" secondItem="uiQ-dM-hdF" secondAttribute="leading" constant="16" id="CRJ-MF-XeY"/>
+                            <constraint firstItem="9Ic-8t-f0T" firstAttribute="height" secondItem="qJE-WB-D7N" secondAttribute="height" multiplier="1/3" id="ISS-MS-gJ6"/>
+                            <constraint firstItem="9Ic-8t-f0T" firstAttribute="width" secondItem="qJE-WB-D7N" secondAttribute="width" multiplier="2/3" id="nb8-4i-4Yr"/>
+                            <constraint firstItem="uiQ-dM-hdF" firstAttribute="trailing" secondItem="RsG-zj-XdS" secondAttribute="trailing" constant="16" id="uyp-YD-J54"/>
+                            <constraint firstItem="9Ic-8t-f0T" firstAttribute="centerX" secondItem="uiQ-dM-hdF" secondAttribute="centerX" id="xsu-nt-Eu3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uiQ-dM-hdF"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Random" id="KJe-g8-CSL"/>
+                    <connections>
+                        <outlet property="randomView" destination="9Ic-8t-f0T" id="aRh-BG-iFq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="giY-ia-R4M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="622" y="142"/>
         </scene>
     </scenes>
 </document>

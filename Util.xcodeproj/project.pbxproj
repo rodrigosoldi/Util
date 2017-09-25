@@ -17,6 +17,7 @@
 		FE6EAF781F79670B00AD16DF /* UIColor+RSRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EAF771F79670B00AD16DF /* UIColor+RSRandom.m */; };
 		FE6EAF7B1F7967B100AD16DF /* RandomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EAF7A1F7967B100AD16DF /* RandomViewController.m */; };
 		FE6EAF7E1F79688000AD16DF /* UIColor+RSHex.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EAF7D1F79688000AD16DF /* UIColor+RSHex.m */; };
+		FE6EAF821F796AA500AD16DF /* NSDictionary+RSJSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EAF811F796AA500AD16DF /* NSDictionary+RSJSONString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		FE6EAF7A1F7967B100AD16DF /* RandomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomViewController.m; sourceTree = "<group>"; };
 		FE6EAF7C1F79688000AD16DF /* UIColor+RSHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+RSHex.h"; sourceTree = "<group>"; };
 		FE6EAF7D1F79688000AD16DF /* UIColor+RSHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RSHex.m"; sourceTree = "<group>"; };
+		FE6EAF801F796AA500AD16DF /* NSDictionary+RSJSONString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RSJSONString.h"; sourceTree = "<group>"; };
+		FE6EAF811F796AA500AD16DF /* NSDictionary+RSJSONString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RSJSONString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		FE6EAF691F79615600AD16DF /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				FE6EAF7F1F7969BF00AD16DF /* NSDictionary */,
 				FE6EAF721F7966CB00AD16DF /* UIColor */,
 				FE6EAF6A1F79622500AD16DF /* UIView */,
 			);
@@ -121,6 +125,15 @@
 				FE6EAF7D1F79688000AD16DF /* UIColor+RSHex.m */,
 			);
 			path = UIColor;
+			sourceTree = "<group>";
+		};
+		FE6EAF7F1F7969BF00AD16DF /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				FE6EAF801F796AA500AD16DF /* NSDictionary+RSJSONString.h */,
+				FE6EAF811F796AA500AD16DF /* NSDictionary+RSJSONString.m */,
+			);
+			path = NSDictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +213,7 @@
 				FE6EAF711F7965D700AD16DF /* ShakeViewController.m in Sources */,
 				FE6EAF6D1F79628100AD16DF /* UIView+RSShake.m in Sources */,
 				FE6EAF631F7960A200AD16DF /* main.m in Sources */,
+				FE6EAF821F796AA500AD16DF /* NSDictionary+RSJSONString.m in Sources */,
 				FE6EAF551F7960A200AD16DF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

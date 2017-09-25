@@ -16,6 +16,7 @@
 		FE6EAF711F7965D700AD16DF /* ShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EAF701F7965D700AD16DF /* ShakeViewController.m */; };
 		FE6EAF781F79670B00AD16DF /* UIColor+RSRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EAF771F79670B00AD16DF /* UIColor+RSRandom.m */; };
 		FE6EAF7B1F7967B100AD16DF /* RandomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EAF7A1F7967B100AD16DF /* RandomViewController.m */; };
+		FE6EAF7E1F79688000AD16DF /* UIColor+RSHex.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EAF7D1F79688000AD16DF /* UIColor+RSHex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		FE6EAF771F79670B00AD16DF /* UIColor+RSRandom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RSRandom.m"; sourceTree = "<group>"; };
 		FE6EAF791F7967B100AD16DF /* RandomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomViewController.h; sourceTree = "<group>"; };
 		FE6EAF7A1F7967B100AD16DF /* RandomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomViewController.m; sourceTree = "<group>"; };
+		FE6EAF7C1F79688000AD16DF /* UIColor+RSHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+RSHex.h"; sourceTree = "<group>"; };
+		FE6EAF7D1F79688000AD16DF /* UIColor+RSHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RSHex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				FE6EAF761F79670B00AD16DF /* UIColor+RSRandom.h */,
 				FE6EAF771F79670B00AD16DF /* UIColor+RSRandom.m */,
+				FE6EAF7C1F79688000AD16DF /* UIColor+RSHex.h */,
+				FE6EAF7D1F79688000AD16DF /* UIColor+RSHex.m */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 			files = (
 				FE6EAF781F79670B00AD16DF /* UIColor+RSRandom.m in Sources */,
 				FE6EAF7B1F7967B100AD16DF /* RandomViewController.m in Sources */,
+				FE6EAF7E1F79688000AD16DF /* UIColor+RSHex.m in Sources */,
 				FE6EAF711F7965D700AD16DF /* ShakeViewController.m in Sources */,
 				FE6EAF6D1F79628100AD16DF /* UIView+RSShake.m in Sources */,
 				FE6EAF631F7960A200AD16DF /* main.m in Sources */,

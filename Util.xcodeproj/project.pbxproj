@@ -11,6 +11,7 @@
 		FE6BFC8E1F797ED200CBF5AB /* NSString+RSEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6BFC8D1F797ED200CBF5AB /* NSString+RSEmpty.m */; };
 		FE6BFC911F797FC800CBF5AB /* NSString+RSURLQueryParametersToDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6BFC901F797FC800CBF5AB /* NSString+RSURLQueryParametersToDictionary.m */; };
 		FE6BFC941F79820000CBF5AB /* NSString+RSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6BFC931F79820000CBF5AB /* NSString+RSColor.m */; };
+		FE6BFC971F79830800CBF5AB /* NSString+RSCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6BFC961F79830800CBF5AB /* NSString+RSCharacter.m */; };
 		FE6EAF551F7960A200AD16DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EAF541F7960A200AD16DF /* AppDelegate.m */; };
 		FE6EAF5B1F7960A200AD16DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6EAF591F7960A200AD16DF /* Main.storyboard */; };
 		FE6EAF5D1F7960A200AD16DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6EAF5C1F7960A200AD16DF /* Assets.xcassets */; };
@@ -33,6 +34,8 @@
 		FE6BFC901F797FC800CBF5AB /* NSString+RSURLQueryParametersToDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+RSURLQueryParametersToDictionary.m"; sourceTree = "<group>"; };
 		FE6BFC921F79820000CBF5AB /* NSString+RSColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+RSColor.h"; sourceTree = "<group>"; };
 		FE6BFC931F79820000CBF5AB /* NSString+RSColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+RSColor.m"; sourceTree = "<group>"; };
+		FE6BFC951F79830800CBF5AB /* NSString+RSCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+RSCharacter.h"; sourceTree = "<group>"; };
+		FE6BFC961F79830800CBF5AB /* NSString+RSCharacter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+RSCharacter.m"; sourceTree = "<group>"; };
 		FE6EAF501F7960A200AD16DF /* Util.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Util.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6EAF531F7960A200AD16DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE6EAF541F7960A200AD16DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				FE6BFC901F797FC800CBF5AB /* NSString+RSURLQueryParametersToDictionary.m */,
 				FE6BFC921F79820000CBF5AB /* NSString+RSColor.h */,
 				FE6BFC931F79820000CBF5AB /* NSString+RSColor.m */,
+				FE6BFC951F79830800CBF5AB /* NSString+RSCharacter.h */,
+				FE6BFC961F79830800CBF5AB /* NSString+RSCharacter.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 				FE6BFC941F79820000CBF5AB /* NSString+RSColor.m in Sources */,
 				FE6EAF821F796AA500AD16DF /* NSDictionary+RSJSONString.m in Sources */,
 				FE6EAF551F7960A200AD16DF /* AppDelegate.m in Sources */,
+				FE6BFC971F79830800CBF5AB /* NSString+RSCharacter.m in Sources */,
 				FE6BFC8B1F797CB700CBF5AB /* NSString+RSEmail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
